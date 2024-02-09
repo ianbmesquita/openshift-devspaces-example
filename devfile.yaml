@@ -9,8 +9,8 @@ projects:
       checkoutFrom:
         revision: main
 components:
-  - name: maven
+  - name: openjdk8
     container:
-     image: eclipse/maven-jdk8:latest
+     image: registry.access.redhat.com/ubi8/openjdk-8
      memoryLimit: 512M
      memoryRequest: 256M
