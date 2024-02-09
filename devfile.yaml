@@ -8,3 +8,9 @@ projects:
         origin: "https://github.com/ianbmesquita/openshift-devspaces-example.git"
       checkoutFrom:
         revision: main
+components:
+  - name: maven
+    container:
+     image: eclipse/maven-jdk8:latest
+     memoryLimit: 512M
+     memoryRequest: 256M
