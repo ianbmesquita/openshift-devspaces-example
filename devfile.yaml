@@ -1,11 +1,12 @@
-apiVersion: 2.0.0
+schemaVersion: 2.1.0
 metadata:
   name: devspaces-example
 projects:
   - name: openshift-devspaces-example
-    source:
-      type: git
-      location: https://github.com/ianbmesquita/openshift-devspaces-example.git
+    clonePath: java/src/github.com/ianbmesquita/openshift-devspaces-example
+    git:
+      remotes:
+        origin: https://github.com/ianbmesquita/openshift-devspaces-example.git
 components:
   - id: vscode-plugins
     name: Install VS Code plugins
