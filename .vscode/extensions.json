@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "redhat.java",
+    "ms-azuretools.vscode-docker",
+    "vscjava.vscode-test-adapter",
+    "vscjava.vscode-java-debug"
+  ]
+}

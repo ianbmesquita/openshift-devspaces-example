@@ -8,13 +8,3 @@ projects:
         origin: "https://github.com/ianbmesquita/openshift-devspaces-example.git"
       checkoutFrom:
         revision: main
-attributes:
-  .vscode/extensions.json: |
-    {
-      "recommendations": [
-        "redhat.java",
-        "ms-azuretools.vscode-docker",
-        "vscjava.vscode-test-adapter",
-        "vscjava.vscode-java-debug"
-      ]
-    }
