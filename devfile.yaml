@@ -8,9 +8,3 @@ projects:
         origin: "https://github.com/ianbmesquita/openshift-devspaces-example.git"
       checkoutFrom:
         revision: main
-components:
-  - name: openjdk8
-    container:
-     image: registry.access.redhat.com/ubi8/openjdk-17:latest
-     memoryLimit: 512M
-     memoryRequest: 256M
